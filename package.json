@@ -1,15 +1,15 @@
 {
-  "name": "one-dark-ui",
+  "name": "zenburn-plus-ui",
   "theme": "ui",
-  "version": "1.10.8",
-  "description": "Atom One dark UI theme",
+  "version": "0.0.0",
+  "description": "A UI theme for Atom to go with the zenburn-plus-syntax theme. Based on One Dark.",
   "keywords": [
     "dark",
-    "adaptive",
-    "ui"
+    "ui",
+    "zenburn"
   ],
   "license": "MIT",
-  "repository": "https://github.com/atom/one-dark-ui",
+  "repository": "https://github.com/michaelkent94/zenburn-plus-ui",
   "main": "lib/main",
   "engines": {
     "atom": ">0.40.0"

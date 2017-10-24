@@ -1,7 +1,7 @@
 
 @import "ui-variables-custom.less"; // import colors and custom variables
 
-// ONE dark UI variables
+// zenburn plus UI variables
 // ----------------------------------------------
 
 // Official variables
@@ -11,22 +11,22 @@
 
 
 // Text -----------------
-@text-color:            @ui-fg;
-@text-color-subtle:     fadeout(@text-color, 40%);
-@text-color-highlight:  lighten(@text-color, 20%);
-@text-color-selected:   white;
+@text-color:            @zenburn-fg;
+@text-color-subtle:     @zenburn-fg-05;
+@text-color-highlight:  @zenburn-fg_05;
+@text-color-selected:   @zenburn-fg_1;
 
-@text-color-info:    hsl(219,  79%, 66%);
-@text-color-success: hsl(140,  44%, 62%);
-@text-color-warning: hsl( 36,  60%, 72%);
-@text-color-error:   hsl(  9, 100%, 64%);
+@text-color-info: @zenburn-blue_1;
+@text-color-success: @zenburn-green_3;
+@text-color-warning: @zenburn-yellow-2;
+@text-color-error: @zenburn-red_1;
 
 
 // Background -----------------
-@background-color-info:    hsl(208, 88%, 48%);
-@background-color-success: hsl(132, 58%, 40%);
-@background-color-warning: hsl( 42, 88%, 36%);
-@background-color-error:   hsl(  5, 64%, 50%);
+@background-color-info:    @zenburn-blue-5;
+@background-color-success: @zenburn-green-1;
+@background-color-warning: @zenburn-yellow-4;
+@background-color-error:   @zenburn-red-4;
 
 @background-color-highlight: lighten(@base-background-color, 4%);
 @background-color-selected:  lighten(@base-background-color, 8%);
@@ -35,8 +35,8 @@
 
 
 // Base -----------------
-@base-background-color: @ui-bg;
-@base-border-color:     @ui-border;
+@base-background-color: @level-2-color;
+@base-border-color:     @zenburn-bg-1;
 
 
 // Components -----------------
@@ -72,11 +72,11 @@
 @tree-view-background-color:       @level-3-color;
 @tree-view-border-color:           @base-border-color;
 
-@ui-site-color-1: hsl(208, 100%, 50%); // blue
-@ui-site-color-2: hsl(160,  70%, 42%); // green
-@ui-site-color-3: hsl(32,   60%, 50%); // orange
-@ui-site-color-4: #D831B0;             // pink
-@ui-site-color-5: #EBDD5B;             // yellow
+@ui-site-color-1: saturate(@zenburn-blue-1, 20%);
+@ui-site-color-2: saturate(@zenburn-green_1, 20%);
+@ui-site-color-3: saturate(@zenburn-orange, 20%);
+@ui-site-color-4: saturate(@zenburn-magenta, 20%);
+@ui-site-color-5: saturate(@zenburn-yellow-2, 20%);
 
 
 // Sizes -----------------
